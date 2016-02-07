@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: qa-dashboard2-joshua-gorospe
+  name: qa-dashboard2-html
+  memory: 64M
+  stack: cflinuxfs2
